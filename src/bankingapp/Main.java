@@ -105,7 +105,7 @@ public class Main {
                     while (scan.hasNext()) {
                         String s = scan.nextLine();
                         if (s.contains("Balance")) {
-                            //balance=Double.parseDouble(s);
+                            //balance=Double.parseDouble(s); //transform the double in string --> how?!
                             s = Double.toString(balance);
                             System.out.println("Your balance is: " + s.trim());
                         } else {
