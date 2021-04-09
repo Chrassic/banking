@@ -9,6 +9,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String cusID;
         String passw;
+        String nummer = "4";
         int tan;
         Account chris = new Account("C381450", "W6184", (int) (Math.random() * 100));
         Account jana = new Account("G721209", "x93972", (int) (Math.random() * 100));
