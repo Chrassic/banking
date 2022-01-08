@@ -12,7 +12,7 @@ public class Main {
         String nummer = "5";
         int tan;
         Account chris = new Account("C381450", "W6184", (int) (Math.random() * 100));
-        Account jana = new Account("G721209", "x93972", (int) (Math.random() * 100));
+        Account kim = new Account("G721209", "x93972", (int) (Math.random() * 100));
         Account tim = new Account("P0511231", "Lv3972", (int) (Math.random() * 100));
 
         welcome();
@@ -35,15 +35,15 @@ public class Main {
                     System.out.println("TAN is wrong. Program is closing...");
             } else
                 System.out.println("Password is not correct. Program is closing...");
-        } else if (cusID.equals(jana.customerID)) {
+        } else if (cusID.equals(kim.customerID)) {
             System.out.print("Please type in your password: ");
             passw = sc.nextLine();
-            if (passw.equals(jana.password)) {
-                System.out.println("The generated TAN is " + jana.tan);
+            if (passw.equals(kim.password)) {
+                System.out.println("The generated TAN is " + kim.tan);
                 System.out.print("Please type in the TAN again to confirm: ");
                 tan = sc.nextInt();
                 sc.nextLine();
-                if (tan == jana.tan)
+                if (tan == kim.tan)
                     menue();
                 else
                     System.out.println("TAN is wrong. Program is closing...");
