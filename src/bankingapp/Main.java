@@ -11,8 +11,8 @@ public class Main {
         String passw;
         String nummer = "5";
         int tan;
-        Account chris = new Account("C381450", "W6184", (int) (Math.random() * 100));
-        Account kim = new Account("G721209", "x93972", (int) (Math.random() * 100));
+        Account chris = new Account("C384450", "W6184", (int) (Math.random() * 100));
+        Account kim = new Account("G731209", "x93972", (int) (Math.random() * 100));
         Account tim = new Account("P0511231", "Lv3972", (int) (Math.random() * 100));
 
         welcome();
