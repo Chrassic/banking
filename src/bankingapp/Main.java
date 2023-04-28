@@ -40,7 +40,7 @@ public class Main {
             passw = sc.nextLine();
             if (passw.equals(kim.password)) {
                 System.out.println("The generated TAN is " + kim.tan);
-                System.out.print("Please type in the TAN again to confirm: ");
+                System.out.print("Please type in your TAN again to confirm: ");
                 tan = sc.nextInt();
                 sc.nextLine();
                 if (tan == kim.tan)
