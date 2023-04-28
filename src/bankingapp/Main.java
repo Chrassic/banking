@@ -17,7 +17,7 @@ public class Main {
 
         welcome();
 
-        System.out.print("Please type in your customer ID: ");
+        System.out.print("Please type in your personal customer ID: ");
         cusID = sc.nextLine();
 
 
@@ -144,7 +144,7 @@ public class Main {
 
 
                                     if (amount > balance) {
-                                        System.out.println("Warning: Your requested amount is bigger than the balance on your bank account.");
+                                        System.out.println("Warning: Your requested amount is bigger than the balance on your bank account. This may cause debt.");
                                         System.out.println("Would you like to withdraw this amount anyway? y/n");
                                         ch.nextLine();
 
