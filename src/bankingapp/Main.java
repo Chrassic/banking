@@ -17,7 +17,7 @@ public class Main {
 
         welcome();
 
-        System.out.print("Please type in your personal customer ID: ");
+        System.out.print("Please type in your customer ID: ");
         cusID = sc.nextLine();
 
 
